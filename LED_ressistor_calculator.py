@@ -32,17 +32,17 @@ def main():
                 print("Invalid input, it must be a number")
         while True:
             try:
-                lma = float(input("operating current of the LED(ma)? :  "))
+                Ima = float(input("operating current of the LED(ma)? :  "))
                 break
             except:
                 print("Invalid input, it must be a number")
         print("\n"
               "Input Voltage          :  ", vin, "V\n"
               "LED forward voltage    :  ", vled, "V\n"
-              "LED operating current  :  ", lma, "ma\n"
+              "LED operating current  :  ", Ima, "ma\n"
               "------------------------------------------------\n"
-              "Resistor :  (", vin, "-", vled, ")/(", lma, "/1000) =  ", (vin-vled)/(lma/1000), "ohms\n"
-              "Wattage  :   ", vin, "*", "(", lma, "/1000", ")", "     =  ", (vin*(lma/1000)), "W\n"
+              "Resistor :  (", vin, "-", vled, ")/(", Ima, "/1000) =  ", (vin-vled)/(Ima/1000), "ohms\n"
+              "Wattage  :   ", vin, "*", "(", Ima, "/1000", ")", "     =  ", (vin*(Ima/1000)), "W\n"
               "\n")
         while True:
             inp = input("Do you want to exit(Y/N)?  ")
