@@ -11,7 +11,7 @@
     2. Input the requested data
     
 ### VERSIONS
-    **V1.0** : This version contains the basic functioning script.
+**V1.0** : This version contains the basic functioning script.
     
 ### FORMULAS USED
 ##### To calculate the resistor
