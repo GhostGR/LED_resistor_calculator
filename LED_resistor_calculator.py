@@ -13,7 +13,7 @@ def main():
         print("################################################\n"
               "#         LED Resistor Value Calculator        #\n"
               "#==============================================#\n"
-              "#     Copyright (c) 2015 Lykourgos Tanious     #\n"
+              "#     Copyright (c) 2016 Lykourgos Tanious     #\n"
               "#----------------------------------------------#\n"
               "#     Version : V1.0                           #\n"
               "#     Author  : Lykourgos Tanious              #\n"
