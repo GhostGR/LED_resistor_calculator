@@ -20,6 +20,6 @@
     R    -> Led resistor(Ω)
     Vin  -> Power source voltage(V)
     Vled -> LED forward voltage(V)
-    Ima  -> LED operating current(A)
+    Ima  -> LED operating current(mA)
 #### To calculate the wattage
     Vin * (Ima/1000)
